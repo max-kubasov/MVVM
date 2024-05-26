@@ -17,6 +17,9 @@
 		2AF9FA8B2C032E160058E68B /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA8A2C032E160058E68B /* EndPoint.swift */; };
 		2AF9FA8D2C0331B90058E68B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA8C2C0331B90058E68B /* Users.swift */; };
 		2AF9FA902C0333A50058E68B /* URLSession + Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA8F2C0333A50058E68B /* URLSession + Extension .swift */; };
+		2AF9FA922C0345540058E68B /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA912C0345540058E68B /* NetworkError.swift */; };
+		2AF9FA962C0346090058E68B /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA952C0346090058E68B /* NetworkRequest.swift */; };
+		2AF9FA982C03488F0058E68B /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA972C03488F0058E68B /* NetworkDataFetch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		2AF9FA8A2C032E160058E68B /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		2AF9FA8C2C0331B90058E68B /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		2AF9FA8F2C0333A50058E68B /* URLSession + Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession + Extension .swift"; sourceTree = "<group>"; };
+		2AF9FA912C0345540058E68B /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		2AF9FA952C0346090058E68B /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		2AF9FA972C03488F0058E68B /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +129,9 @@
 			isa = PBXGroup;
 			children = (
 				2AF9FA8A2C032E160058E68B /* EndPoint.swift */,
+				2AF9FA912C0345540058E68B /* NetworkError.swift */,
+				2AF9FA952C0346090058E68B /* NetworkRequest.swift */,
+				2AF9FA972C03488F0058E68B /* NetworkDataFetch.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -209,8 +218,11 @@
 				2AF9FA882C0247890058E68B /* MainViewModel.swift in Sources */,
 				2AF9FA712C023D540058E68B /* MainViewController.swift in Sources */,
 				2AF9FA862C02469D0058E68B /* MainViewController + TableView.swift in Sources */,
+				2AF9FA962C0346090058E68B /* NetworkRequest.swift in Sources */,
 				2AF9FA6D2C023D540058E68B /* AppDelegate.swift in Sources */,
 				2AF9FA6F2C023D540058E68B /* SceneDelegate.swift in Sources */,
+				2AF9FA982C03488F0058E68B /* NetworkDataFetch.swift in Sources */,
+				2AF9FA922C0345540058E68B /* NetworkError.swift in Sources */,
 				2AF9FA8D2C0331B90058E68B /* Users.swift in Sources */,
 				2AF9FA902C0333A50058E68B /* URLSession + Extension .swift in Sources */,
 			);
