@@ -16,6 +16,7 @@
 		2AF9FA882C0247890058E68B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA872C0247890058E68B /* MainViewModel.swift */; };
 		2AF9FA8B2C032E160058E68B /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA8A2C032E160058E68B /* EndPoint.swift */; };
 		2AF9FA8D2C0331B90058E68B /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA8C2C0331B90058E68B /* Users.swift */; };
+		2AF9FA902C0333A50058E68B /* URLSession + Extension .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA8F2C0333A50058E68B /* URLSession + Extension .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		2AF9FA872C0247890058E68B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		2AF9FA8A2C032E160058E68B /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		2AF9FA8C2C0331B90058E68B /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		2AF9FA8F2C0333A50058E68B /* URLSession + Extension .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession + Extension .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				2AF9FA822C023FC20058E68B /* ViewModels */,
 				2AF9FA832C023FD00058E68B /* Models */,
 				2AF9FA892C032DF50058E68B /* Network */,
+				2AF9FA8E2C0333770058E68B /* Extension */,
 				2AF9FA842C023FDD0058E68B /* Supporting Files */,
 			);
 			path = MVVM;
@@ -122,6 +125,14 @@
 				2AF9FA8A2C032E160058E68B /* EndPoint.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		2AF9FA8E2C0333770058E68B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2AF9FA8F2C0333A50058E68B /* URLSession + Extension .swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +212,7 @@
 				2AF9FA6D2C023D540058E68B /* AppDelegate.swift in Sources */,
 				2AF9FA6F2C023D540058E68B /* SceneDelegate.swift in Sources */,
 				2AF9FA8D2C0331B90058E68B /* Users.swift in Sources */,
+				2AF9FA902C0333A50058E68B /* URLSession + Extension .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
