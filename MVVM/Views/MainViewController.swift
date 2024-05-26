@@ -24,6 +24,7 @@ class MainViewController: UIViewController {
         print("Hello")
         setupView()
         setConstraint()
+        viewModel.getUsers()
     }
     
     private func setupView() {
