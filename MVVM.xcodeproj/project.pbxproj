@@ -21,6 +21,7 @@
 		2AF9FA962C0346090058E68B /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA952C0346090058E68B /* NetworkRequest.swift */; };
 		2AF9FA982C03488F0058E68B /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA972C03488F0058E68B /* NetworkDataFetch.swift */; };
 		2AF9FA9B2C037A7B0058E68B /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA9A2C037A7B0058E68B /* Observable.swift */; };
+		2AF9FA9D2C05089A0058E68B /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA9C2C05089A0058E68B /* MainCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		2AF9FA952C0346090058E68B /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		2AF9FA972C03488F0058E68B /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
 		2AF9FA9A2C037A7B0058E68B /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		2AF9FA9C2C05089A0058E68B /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				2AF9FA702C023D540058E68B /* MainViewController.swift */,
 				2AF9FA852C02469D0058E68B /* MainViewController + TableView.swift */,
+				2AF9FA9C2C05089A0058E68B /* MainCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				2AF9FA712C023D540058E68B /* MainViewController.swift in Sources */,
 				2AF9FA862C02469D0058E68B /* MainViewController + TableView.swift in Sources */,
 				2AF9FA9B2C037A7B0058E68B /* Observable.swift in Sources */,
+				2AF9FA9D2C05089A0058E68B /* MainCell.swift in Sources */,
 				2AF9FA962C0346090058E68B /* NetworkRequest.swift in Sources */,
 				2AF9FA6D2C023D540058E68B /* AppDelegate.swift in Sources */,
 				2AF9FA6F2C023D540058E68B /* SceneDelegate.swift in Sources */,
