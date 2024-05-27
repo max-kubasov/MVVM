@@ -9,6 +9,9 @@ import Foundation
 
 class MainViewModel {
     
+    var isLoading: Observable<Bool> = Observable(false)
+    var dataSource: [Users]?
+    
     func numberOfSection() -> Int {
         1
     }
@@ -18,11 +21,16 @@ class MainViewModel {
     }
     
     func getUsers() {
-        NetworkDataFetch.shared.fetchUsers { users, error in
+        isLoading.value = true
+        
+        NetworkDataFetch.shared.fetchUsers { [weak self] users, error in
+            guard let self else { return }
+            self.isLoading.value = false
+            
             if error != nil {
                 print("Notify user")
             } else if let users {
-                print(users.count)
+                self.dataSource = users
             }
         }
     }
