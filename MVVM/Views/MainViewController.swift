@@ -11,7 +11,7 @@ class MainViewController: UIViewController {
     
     let tableView: UITableView = {
         let tableView = UITableView()
-        tableView.backgroundColor = .darkGray
+        tableView.backgroundColor = .white
         tableView.translatesAutoresizingMaskIntoConstraints = false
         return tableView
     }()
@@ -19,6 +19,8 @@ class MainViewController: UIViewController {
     let activityIndicator = UIActivityIndicatorView()
     
     var viewModel = MainViewModel()
+    
+    var cellDataSource = [Users]()
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -51,6 +53,12 @@ class MainViewController: UIViewController {
             DispatchQueue.main.async {
                 isLoading ? self.activityIndicator.startAnimating() : self.activityIndicator.stopAnimating()
             }
+        }
+        
+        viewModel.cellDataSource.bind { [weak self] users in
+            guard let self, let users else { return }
+            cellDataSource = users
+            reloadTableView()
         }
     }
     

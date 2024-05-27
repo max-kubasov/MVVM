@@ -16,6 +16,12 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
         registerCell()
     }
     
+    func reloadTableView() {
+        DispatchQueue.main.async {
+            self.tableView.reloadData()
+        }
+    }
+    
     func registerCell() {
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
@@ -30,7 +36,8 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = "\(indexPath.row)"
+        print("\(cellDataSource[indexPath.row].username)")
+        cell.textLabel?.text = cellDataSource[indexPath.row].username
         return cell
     }
     
