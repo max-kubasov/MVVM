@@ -22,6 +22,7 @@
 		2AF9FA982C03488F0058E68B /* NetworkDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA972C03488F0058E68B /* NetworkDataFetch.swift */; };
 		2AF9FA9B2C037A7B0058E68B /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA9A2C037A7B0058E68B /* Observable.swift */; };
 		2AF9FA9D2C05089A0058E68B /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA9C2C05089A0058E68B /* MainCell.swift */; };
+		2AF9FA9F2C0639D10058E68B /* MainCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF9FA9E2C0639D10058E68B /* MainCellViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		2AF9FA972C03488F0058E68B /* NetworkDataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetch.swift; sourceTree = "<group>"; };
 		2AF9FA9A2C037A7B0058E68B /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		2AF9FA9C2C05089A0058E68B /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		2AF9FA9E2C0639D10058E68B /* MainCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCellViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				2AF9FA872C0247890058E68B /* MainViewModel.swift */,
+				2AF9FA9E2C0639D10058E68B /* MainCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				2AF9FA8B2C032E160058E68B /* EndPoint.swift in Sources */,
 				2AF9FA882C0247890058E68B /* MainViewModel.swift in Sources */,
 				2AF9FA712C023D540058E68B /* MainViewController.swift in Sources */,
+				2AF9FA9F2C0639D10058E68B /* MainCellViewModel.swift in Sources */,
 				2AF9FA862C02469D0058E68B /* MainViewController + TableView.swift in Sources */,
 				2AF9FA9B2C037A7B0058E68B /* Observable.swift in Sources */,
 				2AF9FA9D2C05089A0058E68B /* MainCell.swift in Sources */,

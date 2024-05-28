@@ -35,9 +35,13 @@ extension MainViewController: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        print("\(cellDataSource[indexPath.row].username)")
-        cell.textLabel?.text = cellDataSource[indexPath.row].username
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell",
+                                                       for: indexPath) as? MainCell else {
+            return UITableViewCell()
+        }
+        
+        let cellViewModel = cellDataSource[indexPath.row]
+        
         return cell
     }
     

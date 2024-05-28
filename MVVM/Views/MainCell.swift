@@ -39,4 +39,6 @@ class MainCell: UITableViewCell {
             labelStackView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20)
         ])
     }
+    
+    
 }
