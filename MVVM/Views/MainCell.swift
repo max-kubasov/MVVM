@@ -9,12 +9,18 @@ import UIKit
 
 class MainCell: UITableViewCell {
     
+    static var identifier: String {
+        "MainCell"
+    }
+    
     private var nameLabel = UILabel()
     private var emailLabel = UILabel()
     private var labelStackView = UIStackView()
     
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
+        
+        setupView()
     }
     
     required init?(coder: NSCoder) {
@@ -40,5 +46,8 @@ class MainCell: UITableViewCell {
         ])
     }
     
-    
+    func setupCell(viewModel: MainCellViewModel) {
+        nameLabel.text = viewModel.name
+        emailLabel.text = viewModel.email
+    }
 }
