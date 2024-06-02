@@ -9,9 +9,9 @@ import Foundation
 
 class NetworkDataFetch {
     
-    static let shared = NetworkDataFetch()
+    static var shared = NetworkDataFetch()
     
-    private init() {}
+    init() {}
     
     func fetchUsers(response: @escaping ([Users]?, NetworkError?) -> Void) {
         NetworkRequest.shared.getData { result in
